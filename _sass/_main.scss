@@ -88,12 +88,22 @@ ul.topbar {
 		color: #000000;
 	}
 }
-.post_list, .tag_list, .post_content {
+.post_list, .tag_list {
 	background: #fff8ff;
 	border-width: 2px;
 	border-style: ridge groove groove ridge;
 	border-color: #7f787f #fff8ff #fff8ff #7f787f;
 }
+
+.post_content {
+	background: #fff8ff;
+	border-width: 2px;
+	border-style: ridge groove groove ridge;
+	border-color: #7f787f #fff8ff #fff8ff #7f787f;
+	font-family: 'DungGeunMo', serif;
+	src: url('../assets/fonts/DungGeunMo.ttf') format('truetype');
+}
+
 .post_list {
 	width: 70.2%;
 	margin: 0 auto;

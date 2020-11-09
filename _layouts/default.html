@@ -81,7 +81,7 @@
 				<div class="btn"><span class="fa fa-window-minimize"></span></div>
 			</div>
 			<ul class="topbar">
-				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
+				<li>{{ page.date | date: '%Y년 %m월 %-d일' | replace: '01월', '1월' | replace: '02월', '2월' | replace: '03월', '3월' | replace: '04월', '4월' | replace: '05월', '5월' | replace: '06월', '6월' | replace: '07월', '7월' | replace: '08월', '8월' | replace: '09월', '9월' }}</li>
 			</ul>
 			<div class="post_content">
         		{{ content }}
